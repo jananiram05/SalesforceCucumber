@@ -31,6 +31,8 @@ public class LoginStepDefinition {
 
 	@After
 	public void teardown(Scenario scenario) {
+		System.out.println("tear down...");
+
 		/*
 		 * if (driver != null) { driver.quit(); }
 		 */
